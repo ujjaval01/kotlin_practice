@@ -1,8 +1,8 @@
 fun main(){
     var temps = intArrayOf(8,5,11,3,14,4,1)
     var sizeOfArray = temps.size
-    var highestTemp = temps.maxOrNull() ?: 0
-    var lowestTemp = temps.minOrNull() ?: 0
+    var highestTemp = temps.maxOrNull()
+    var lowestTemp = temps.minOrNull()
     var sum = 0
         for(num in temps ){
             sum = sum + num
