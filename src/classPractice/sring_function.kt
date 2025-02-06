@@ -1,6 +1,22 @@
 fun main(){
-    var s = "raushan"
+    var s = "ujjaval"
+   // println(s.toUpperCase())
     println(s.length)
+
+    val str = "  Kotlin  "
+    println(str.trimStart())  // Output: "Kotlin  "
+    println(str.trimEnd())    // Output: "  Kotlin"
+
+//    val str = "Kotlin"
+    println(str.uppercase())  // Output: KOTLIN
+    println(str.lowercase())  // Output: kotlin
+
+
+
+
+
+
+
     println(s.contains("sh"))
     println(s.get(2))
     println(s.replace('a','u'))
@@ -15,6 +31,14 @@ fun main(){
     var s3 = newString.startsWith("U")
     println("s3 = $s3")
 
+
+
+    //equal and compair
+
+    println("equall or not: " + s.equals(newString, ignoreCase = true))
+
+    val str1 = "one,two,three"
+    println(str1.split(","))  // Output: [one, two, three]
 
 
 

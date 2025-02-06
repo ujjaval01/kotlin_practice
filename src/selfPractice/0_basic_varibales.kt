@@ -1,7 +1,7 @@
 package selfPractice
 
 fun main(){
-    // var - constant
+    // val - constant
     // var - changeable
     // byte short int long float double char bool string array
     //   1    2    4    8     4     8     2    1
