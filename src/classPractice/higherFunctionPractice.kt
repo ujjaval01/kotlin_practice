@@ -1,5 +1,5 @@
 /*
-there has one problem we are calling the higher function at the end, but when we're
+there has one problem, we are calling the higher function at the end, but when we're
 printing the result, the higher function output printing in first
 */
 
